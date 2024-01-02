@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-bg-1: #13111C;
+    --color-bg-2: #13111C;
+    --color-text: #C3C3C3;
+    --color-text-callout-1: #FFFFFF;
+    --color-text-callout-2: #E560AF;
+    --color-text-callout-3: #A100E2;
+    --color-button-bg-1: #A100E2;
+    --color-button-text-1: #FFFFFF;
+    --color-button-border-1: #A100E2;
+    --color-button-bg-2: #13111C;
+    --color-button-text-2: #A100E2;
+    --color-button-border-2: #A100E2;
+    --color-border: #A1A1A1;
+    --color-error: #E560AF;
+    --color-success: #6CF0C8;
+    --font-family: 'Barlow', sans-serif;
+}
+
+html, body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+    background: var(--color-bg-1);
+    color: var(--color-text);
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+p {
+    line-height: 122%;
+}
+
+a p {
+    color: var(--color-text);
+}
