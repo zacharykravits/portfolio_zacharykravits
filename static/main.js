@@ -1,4 +1,6 @@
 const menuList = document.getElementById('mobile-menu')
+const menuListLinks = document.getElementsByClassName('mobile-nav-link')
+const menuListLinksArray = Array.from(menuListLinks)
 
 const menuToggle = () => {
     console.log('menuList: ', menuList)
@@ -20,4 +22,14 @@ window.addEventListener('resize', () => {
         menuList.classList.add('hide-xs')
         return;
     }
+})
+
+menuListLinksArray.map((link, index, array) => {
+    link.addEventListener('click', () => {
+        if (menuList.classList.contains('block-xs')) {
+            menuList.classList.remove('block-xs');
+            menuList.classList.add('hide-xs')
+            return;
+        }
+    })
 })
