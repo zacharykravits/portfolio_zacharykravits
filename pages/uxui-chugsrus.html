@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/normalize.css">
+    <link rel="stylesheet" href="./static/authvow-root.css">
+    <link rel="stylesheet" href="./static/authvow-elements.css">
+    <link rel="stylesheet" href="./static/authvow-margin.css">
+    <link rel="stylesheet" href="./static/authvow-padding.css">
+    <link rel="stylesheet" href="./static/authvow-containers.css">
+    <link rel="stylesheet" href="./static/authvow-positioning.css">
+    <title>Zachary Kravits</title>
+</head>
+<body class="relative">
+
+    <div class="fixed full-width mx bgcolor2 pt2 pb2" style="z-index: 100;">
+        <div class="mx pl3 pr3 flex justify-between vertically-center" style="max-width: 1080px;">
+            <a href="/" class="link header2 textcallout1">Zachary Kravits</a>
+            <nav class="hide-xs flex-sm flex-md flex-lg gap3 vertically-center">
+                <a class="link" href="#work">Work</a>
+                <a class="link" href="#skills">Skills</a>
+                <a class="link" href="#testimonials">Testimonials</a>
+                <a class="link" href="#about">About</a>
+                <a class="link" href="#podcasts">Podcasts</a>
+            </nav>
+            <button class="navbutton block-xs hide-sm hide-md hide-lg" onclick="menuToggle()">Menu</button>
+        </div>
+        <div id="mobile-menu" class="hide-xs hide-sm hide-md hide-lg">
+            <nav class="flex flexdir-col gap3">
+                <a class="link textcenter mobile-nav-link" href="#work">Work</a>
+                <a class="link textcenter mobile-nav-link" href="#skills">Skills</a>
+                <a class="link textcenter mobile-nav-link" href="#testimonials">Testimonials</a>
+                <a class="link textcenter mobile-nav-link" href="#about">About</a>
+                <a class="link textcenter mobile-nav-link" href="#podcasts">Podcasts</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="pt22 relative" style="overflow: hidden;">
+        <div class="container flex" style="overflow: hidden;">
+            <div class="flex flexdir-col gap5" style="z-index: 3;">
+                <div class="flex flexdir-col gap2">
+                    <p class="p0 m0 header2 textcallout3">What's up!</p>
+                    <h1 class="p0 m0 header1 textcallout1">I'm Zach, <span class="block-xs hide-sm hide-md hide-lg"><br></span>a UX/UI Designer.</h1>
+                    <p class="p0 m0 textcallout1" style="font-size: 20px; width: 70%;">Experienced in designing AI/ML based SaaS products and e-commerce sites.</p>
+                </div>
+                <div class="divider2"></div>
+                <div class="flex gap4">
+                    <a href="#work" class="cta1">See Work</a>
+                    <a href="#about" class="cta2">About</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute" style="width: 100%; height: 200px; top: 64px; right: 0px; z-index: 2; background: linear-gradient(0deg, rgba(19, 17, 28, 0.00) 0%, #13111C 51.56%);"></div>
+        <div class="absolute" style="width: 50%; height: 100%; top: 16px; right: -80px; z-index: 1; background-image: url(./static/uis-bg.png); background-repeat: no-repeat;"></div>
+        <div class="absolute" style="width: 100%; height: 200px; bottom: -64px; right: 0px; z-index: 2; background: linear-gradient(180deg, rgba(19, 17, 28, 0.00) 0%, #13111C 57.29%);"></div>
+    </section>
+
+
+    <!-- Context & Problems -->
+    <div class="container-wrapper" id="about">
+        <section class="container">
+            <div class="" style="width: 100%;">
+                <div class="flex flexdir-col gap1 full-width mb10">
+                    <p class="p0 m0 textcallout2 header2 textcenter">A quick bit</p>
+                    <h2 class="m0 p0 textcallout1 header1 textcenter">About Me</h2>
+                    <div class="flex justify-around full-width mt2 mb2">
+                        <div class="divider1"></div>
+                    </div>
+                </div>
+                <div class="flex flexdir-col gap5" style="width: 100%; height: 100%;">
+                    <div class="flex flexdir-col gap2 full-width">
+                        <div>
+                            <p class="pt0 mt0">Hello there! Over the past 5-6 years, I have worn many hats, both literally and figuratively. I have worked with various projects and companies, primarily in the transportation, construction, fashion, and food industries. Some testimonials are above, and more can be found on LinkedIn.</p>
+                            <p>I began my career as a graphic designer, creating logos, print designs, and various brand materials. My position quickly transitioned to working as a dedicated User Experience & User Interface (UX/UI) designer, where I designed and project-managed features for a web application at a successful Pittsburgh SaaS startup called Idelic. The web app (Safety Suite) utilizes machine learning to analyze the safety of CDL truck drivers. During my time there, I was not just doing UX and Product design but also engaged in business analysis and product management by writing product requirements, user stories, and understanding and mapping out customers' business operations when needed. I worn many hats during my time there.</p>
+                            <p>I've also had the pleasure of assisting tech startup founders in learning basic Python programming through an in-person artificial intelligence course in the evenings that my Javascript teacher encouraged me to help with.</p>
+                            <p>Later, I transitioned to my current role, where I have decided to specialize in designing and building E-commerce and lead generation sites using Shopify and Webflow, respectively.</p>
+                            <p>In addition to my love for web design and development, I've found a passion for sharing my knowledge and experiences through podcasting. Currently, I host the Deno Developer Show and Tensorflow Developer Show.The Deno Developer show focuses on a newer Javascript runtime that competes with Node.js. It's included popular micro-influences in the Javascript community like Nick Nisi from one of the most popular Javascript podcasts today, JS Party; Kitson Kelly, formerly a Deno core team member and Dojo project lead; and Luca Casonato, a TC39 delegate and Deno core team member.The Tensorflow Developer show is a much newer podcast that focuses on introducing AI, ML, and Tensorflow concepts to developers new to machine learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Featured Work -->
+    <div class="container-wrapper" id="work">
+        <section class="container">
+            <div class="" style="width: 100%;">
+                <div class="flex flexdir-col gap1 full-width mb10">
+                    <p class="p0 m0 textcallout2 header2 textcenter">Here is some</p>
+                    <h2 class="m0 p0 textcallout1 header1 textcenter">Featured UX/UI Work</h2>
+                    <div class="flex justify-around full-width mt2 mb2">
+                        <div class="divider1"></div>
+                    </div>
+                    <p class="m0 p0 textcenter">I’ve done UX/UI design and some product ownership for a SaaS that utilizes AI/ML, e-commerce sites for up-and-coming brands, and basic lead generation sites for local small businesses.</p>
+                </div>
+                <div class="flex flexdir-col gap4" style="width: 100%; height: 100%;">
+                    <div class="flex flexdir-col-xs gap4 full-width">
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">E-commerce</p>
+                                <p class="textcallout1 p0 m0 header2">Chugs R' Us</p>
+                                <p class="p0 m0" style="text-decoration: none;">An e-commerce site for heavy metal fanatics built on Shopify.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px;" src="./static/cru-preview.png" alt="CRU preview">
+                            </div>
+                        </a>
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">E-commerce</p>
+                                <p class="textcallout1 p0 m0 header2">Chugs R' Us</p>
+                                <p class="p0 m0" style="text-decoration: none;">An e-commerce site for heavy metal fanatics built on Shopify.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px;" src="./static/cru-preview.png" alt="CRU preview">
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="flex flexdir-col-xs gap4 full-width">
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">E-commerce</p>
+                                <p class="textcallout1 p0 m0 header2">Chugs R' Us</p>
+                                <p class="p0 m0" style="text-decoration: none;">An e-commerce site for heavy metal fanatics built on Shopify.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px;" src="./static/cru-preview.png" alt="CRU preview">
+                            </div>
+                        </a>
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">E-commerce</p>
+                                <p class="textcallout1 p0 m0 header2">Chugs R' Us</p>
+                                <p class="p0 m0" style="text-decoration: none;">An e-commerce site for heavy metal fanatics built on Shopify.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px;" src="./static/cru-preview.png" alt="CRU preview">
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Podcasts -->
+    <div class="container-wrapper" id="podcasts">
+        <section class="container">
+            <div class="" style="width: 100%;">
+                <div class="flex flexdir-col gap1 full-width mb10">
+                    <p class="p0 m0 textcallout2 header2 textcenter">Listen to the</p>
+                    <h2 class="m0 p0 textcallout1 header1 textcenter">Podcasts</h2>
+                    <div class="flex justify-around full-width mt2 mb2">
+                        <div class="divider1"></div>
+                    </div>
+                    <p class="m0 p0 textcenter">I’ve done UX/UI design and some product ownership for a SaaS that utilizes AI/ML, e-commerce sites for up-and-coming brands, and basic lead generation sites for local small businesses.</p>
+                </div>
+                <div class="flex flexdir-col gap4" style="width: 100%; height: 100%;">
+                    <div class="flex flexdir-col-xs flexdir-col-sm gap4 full-width">
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">Tuesdays</p>
+                                <p class="textcallout1 p0 m0 header2">Tensorflow Developer Show</p>
+                                <p class="p0 m0" style="text-decoration: none;">With your Python and/or Javascript skills, you can train and deploy ML models with TensorFlow, a versatile and fast machine learning library. This show is about going from a novice in machine learning and TensorFlow to a productive ML developer.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px; padding-bottom: 16px;" src="./static/icon-tensorflow.png">
+                            </div>
+                        </a>
+
+                        <a href="./chugsrus" class="card1 card-link card-nobottompadding flex vertically-stretch full-width" style="overflow: hidden; min-height: 240px;">
+                            <div class="flex flexdir-col gap2 full-width pl4 pr4 pb4 pt4" style="width: 70%;">
+                                <p class="textcallout1 p0 m0">Thursdays</p>
+                                <p class="textcallout1 p0 m0 header2">Deno Developer Show</p>
+                                <p class="p0 m0" style="text-decoration: none;">With your Javascript and/or Typescript skills, you can write server-side code in Deno, a fast and secure Javascript and Typescript runtime. This show is about going from a novice in server-side code and Deno to a productive and secure backend developer.</p>
+                            </div>
+                            <div style="width: 30%;" class="relative">
+                                <img class="absolute" style="height: 100%; padding-top: 16px; padding-bottom: 16px;" src="./static/icon-deno.png">
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="container full-width pt12 pb12" style="box-sizing: border-box;">
+        <p class="header2 p0 m0 textcenter">Zachary Kravits</p>
+        <p class="p0 m0 textcenter">UX/UI Designer</p>
+    </footer>
+
+    <script src="./static/main.js"></script>
+</body>
+</html>
