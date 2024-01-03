@@ -1,6 +1,7 @@
 const menuList = document.getElementById('mobile-menu')
 const menuListLinks = document.getElementsByClassName('mobile-nav-link')
 const menuListLinksArray = Array.from(menuListLinks)
+const nav = document.getElementById('nav')
 
 const menuToggle = () => {
     console.log('menuList: ', menuList)
@@ -32,4 +33,18 @@ menuListLinksArray.map((link, index, array) => {
             return;
         }
     })
+})
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY != 0) {
+        if (nav.classList.contains('opacity0')) {
+            nav.classList.remove('opacity0')
+            nav.classList.add('bgcolor1')
+        }
+    } else {
+        if (nav.classList.contains('bgcolor1')) {
+            nav.classList.remove('bgcolor1')
+            nav.classList.add('opacity0')
+        }
+    }
 })

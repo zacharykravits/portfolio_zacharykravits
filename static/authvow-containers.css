@@ -18,6 +18,7 @@
 .divider2 { width: 180px; background: var(--color-text-callout-3); height: 1px; }
 .card1 { border-radius: 8px; text-decoration: none; background: var(--color-bg-1); border: 1px solid #8536CA; box-shadow: 0px 8px 180px 0px rgba(133, 54, 202, 0.20); }
 .card2 { border-radius: 8px; text-decoration: none; background: var(--color-bg-1); border: 1px solid #E561AF; box-shadow: 0px 8px 180px 0px rgba(229, 97, 175, 0.15); }
+.card3 { border-radius: 8px; background: #312B4A; border: 1px solid #312B4A; }
 .card-nobottompadding { padding-bottom: 0px; }
 .card-link { cursor: pointer; }
 .card-link:hover { background: #161616; }

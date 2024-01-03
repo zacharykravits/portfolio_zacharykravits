@@ -4,6 +4,7 @@
 .textcallout1 { color: var(--color-text-callout-1) !important; }
 .textcallout2 { color: var(--color-text-callout-2) !important; }
 .textcallout3 { color: var(--color-text-callout-3) !important; }
+.opacity0 { color: #13111C00; }
 
 .navbutton {
     cursor: pointer;
@@ -80,21 +81,21 @@
     font-size: 48px !important;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 108%;
 }
 
 .header2 {
     font-size: 24px !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    line-height: normal !important;
+    line-height: 108% !important;
 }
 
 .header3 {
     font-size: 16px !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    line-height: normal !important;
+    line-height: 108% !important;
 }
 
 .link {

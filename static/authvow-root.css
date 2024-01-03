@@ -31,15 +31,7 @@ html, body {
 
 *,
 *::before,
-*::after {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-}
+*::after { -webkit-box-sizing: inherit; box-sizing: inherit; }
 
-p {
-    line-height: 122%;
-}
-
-a p {
-    color: var(--color-text);
-}
+p, li { line-height: 144%; }
+a p { color: var(--color-text); }

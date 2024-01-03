@@ -12,9 +12,25 @@
     <link rel="stylesheet" href="./static/authvow-positioning.css">
     <title>Zachary Kravits</title>
 </head>
+
+<style>
+
+#ux-photo {
+    right: -90px;
+    width: 50%;
+}
+
+@media screen and (max-width: 599px) {
+    #ux-photo {
+        right: -90px;
+        width: 90%;
+    }
+}
+
+</style>
 <body class="relative">
 
-    <div class="fixed full-width mx bgcolor2 pt2 pb2" style="z-index: 100;">
+    <div id="nav" class="fixed full-width mx pt2 pb2 opacity0" style="z-index: 100; transition: all 200ms;">
         <div class="mx pl3 pr3 flex justify-between vertically-center" style="max-width: 1080px;">
             <a href="/" class="link header2 textcallout1">Zachary Kravits</a>
             <nav class="hide-xs flex-sm flex-md flex-lg gap3 vertically-center">
@@ -38,7 +54,7 @@
     </div>
 
     <!-- Hero -->
-    <section class="pt22 relative" style="overflow: hidden;">
+    <section class="pt25 pb25 relative" style="overflow: hidden; background: radial-gradient(ellipse at right top, rgb(166, 68, 126) 0%, rgba(19,17,28,1) 55%);">
         <div class="container flex" style="overflow: hidden;">
             <div class="flex flexdir-col gap5" style="z-index: 3;">
                 <div class="flex flexdir-col gap2">
@@ -53,13 +69,12 @@
                 </div>
             </div>
         </div>
-        <div class="absolute" style="width: 100%; height: 200px; top: 64px; right: 0px; z-index: 2; background: linear-gradient(0deg, rgba(19, 17, 28, 0.00) 0%, #13111C 51.56%);"></div>
-        <div class="absolute" style="width: 50%; height: 100%; top: 16px; right: -80px; z-index: 1; background-image: url(./static/uis-bg.png); background-repeat: no-repeat;"></div>
-        <div class="absolute" style="width: 100%; height: 200px; bottom: -64px; right: 0px; z-index: 2; background: linear-gradient(180deg, rgba(19, 17, 28, 0.00) 0%, #13111C 57.29%);"></div>
+        <div id="ux-photo" class="absolute" style="height: 100%; top: 164px; z-index: 2; background-image: url(./static/uxpentool.png); background-repeat: no-repeat;"></div>
+        <!-- <div class="absolute" style="width: 100%; height: 200px; bottom: -64px; right: 0px; z-index: 1; background: linear-gradient(180deg, rgba(19, 17, 28, 0.00) 0%, #13111C 57.29%);"></div> -->
     </section>
 
     <!-- Trusted By MD and up -->
-    <div class="container-wrapper hide-xs hide-sm card-md card-lg">
+    <div class="container-wrapper pt0 mt0 hide-xs hide-sm card-md card-lg" style="padding-top: 0px; margin-top: 0px;">
         <section class="container flex relative">
             <div class="flex flexdir-col" style="width: 100%; height: 100%;">
                 <div class="flex" style="flex-grow: 1;">
@@ -111,7 +126,7 @@
     </div>
 
     <!-- Trusted By SM and down -->
-    <div class="container-wrapper card-xs card-sm hide-md hide-lg">
+    <div class="container-wrapper pt0 mt0 card-xs card-sm hide-md hide-lg" style="padding-top: 0px; margin-top: 0px;">
         <section class="container flex relative">
             <div class="flex flexdir-col" style="width: 100%; height: 100%;">
                 <div class="flex flexdir-col" style="flex-grow: 1;">
