@@ -12,33 +12,46 @@
     <link rel="stylesheet" href="./static/authvow-positioning.css">
     <title>Zachary Kravits</title>
 </head>
+<style>
+
+    #ux-photo {
+        right: -90px;
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 599px) {
+        #ux-photo {
+            right: -90px;
+            width: 90%;
+        }
+    }
+    
+    </style>
 <body class="relative">
 
-    <div class="fixed full-width mx bgcolor2 pt2 pb2" style="z-index: 100;">
+    <div id="nav" class="fixed full-width mx pt2 pb2 opacity0" style="z-index: 100; transition: all 200ms;">
         <div class="mx pl3 pr3 flex justify-between vertically-center" style="max-width: 1080px;">
             <a href="/" class="link header2 textcallout1">Zachary Kravits</a>
             <nav class="hide-xs flex-sm flex-md flex-lg gap3 vertically-center">
-                <a class="link" href="#work">Work</a>
-                <a class="link" href="#skills">Skills</a>
-                <a class="link" href="#testimonials">Testimonials</a>
-                <a class="link" href="#about">About</a>
-                <a class="link" href="#podcasts">Podcasts</a>
+                <a class="link textcallout1" href="./index#work">Work</a>
+                <a class="link textcallout1" href="./index#skills">Skills</a>
+                <a class="link textcallout1" href="./index#testimonials">Testimonials</a>
+                <a class="link textcallout1" href="./index#about">About</a>
             </nav>
             <button class="navbutton block-xs hide-sm hide-md hide-lg" onclick="menuToggle()">Menu</button>
         </div>
         <div id="mobile-menu" class="hide-xs hide-sm hide-md hide-lg">
             <nav class="flex flexdir-col gap3">
-                <a class="link textcenter mobile-nav-link" href="#work">Work</a>
-                <a class="link textcenter mobile-nav-link" href="#skills">Skills</a>
-                <a class="link textcenter mobile-nav-link" href="#testimonials">Testimonials</a>
-                <a class="link textcenter mobile-nav-link" href="#about">About</a>
-                <a class="link textcenter mobile-nav-link" href="#podcasts">Podcasts</a>
+                <a class="link textcenter mobile-nav-link textcallout1" href="./index#work">Work</a>
+                <a class="link textcenter mobile-nav-link textcallout1" href="./index#skills">Skills</a>
+                <a class="link textcenter mobile-nav-link textcallout1" href="./index#testimonials">Testimonials</a>
+                <a class="link textcenter mobile-nav-link textcallout1" href="./index#about">About</a>
             </nav>
         </div>
     </div>
 
     <!-- Hero -->
-    <section class="pt22 relative" style="overflow: hidden;">
+    <section class="pt25 pb25 relative" style="overflow: hidden; background: radial-gradient(ellipse at right top, rgb(166, 68, 126) 0%, rgba(19,17,28,1) 55%);">
         <div class="container flex" style="overflow: hidden;">
             <div class="flex flexdir-col gap5" style="z-index: 3;">
                 <div class="flex flexdir-col gap2">
@@ -52,9 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="absolute" style="width: 100%; height: 200px; top: 64px; right: 0px; z-index: 2; background: linear-gradient(0deg, rgba(19, 17, 28, 0.00) 0%, #13111C 51.56%);"></div>
-        <!-- <div class="absolute" style="width: 50%; height: 100%; top: 16px; right: -80px; z-index: 1; background-image: url(./static/uis-bg.png); background-repeat: no-repeat;"></div> -->
-        <div class="absolute" style="width: 100%; height: 200px; bottom: -64px; right: 0px; z-index: 2; background: linear-gradient(180deg, rgba(19, 17, 28, 0.00) 0%, #13111C 57.29%);"></div>
+        <div id="ux-photo" class="absolute" style="height: 100%; top: 164px; z-index: 2; background-image: url(./static/uxpentool.png); background-repeat: no-repeat;"></div>
     </section>
 
 
@@ -86,8 +97,9 @@
                     </div>
                     <div class="flex flexdir-col gap2 full-width">
                         <div>
-                            <p class="pt0 mt0">Loem ipsum luhon lelum bebon ipsum luhon lelum bebon. Yuolen ipsum luhon lelum bebon.</p>
-                            <p>Loem ipsum luhon lelum bebon ipsum luhon lelum bebon. Yuolen ipsum luhon lelum bebon.</p>
+                            <p class="pt0 mt0">My approach to this was simple. First, I aimed to understand the potential content types they were looking to explore and their goals. It turned out they were primarily interested in written articles and videos, as well as building an email list. From there, I sought to examine other platforms that have excelled in creating content-heavy sites. I looked at YouTube, Medium, Dev.to, and others, with the goal of understanding successful layouts and how they incorporated ads/promotions.</p>
+                            <p>I also examined popular fashion brands such as Life is Good, Gym Shark, Nike, and others to see how they handled product content.</p>
+                            <p>During discussions with the client, it became clear that they were more focused on appealing to listeners of specific subgenres rather than covering the entire metal spectrum. For instance, instead of targeting fans of thrash metal bands like Warbringer or SpiritWorld, their primary focus was on attracting listeners of metalcore and deathcore bands such as Make Them Suffer, Shadow of Intent, Breakdown of Sanity, and Ice Nine Kills. While this might seem like similar aggressive noise to non-"metalheads," it holds significant distinctions for dedicated listeners. This preference influenced the styling, drawing inspiration from the artwork of popular modern metal bands. Additionally, I explored brands like Liquid Death, a popular canned water brand, to understand how they balanced a dark yet humorous dynamic.</p>
                         </div>
                     </div>
                 </div>

@@ -138,21 +138,23 @@ const reqHandler = async (req) => {
     switch (pathname) {
         case "/":
             return index();
-        case "/uxui/chugsrus":
+        case "/index":
+            return index();
+        case "/uxui-chugsrus":
             return work_uxui_chugsrus();
-        case "/uxui/renewproject":
+        case "/uxui-renewproject":
             return work_uxui_renewproject();
-        case "/uxui/dkprojectbuilding":
+        case "/uxui-dkprojectbuilding":
             return work_uxui_dkprojectbuilding();
-        case "/uxui/elburro":
-            return work_uxui_authvow();
-        case "/other/idelic":
+        case "/uxui-elburro":
+            return work_uxui_elburro();
+        case "/other-idelic":
             return work_other_idelic();
-        case "/other/dkprojectbuilding":
+        case "/other-dkprojectbuilding":
             return work_other_dkprojectbuilding();
-        case "/other/authvow":
+        case "/other-authvow":
             return work_other_authvow();
-        case "/other/authvowcsslibrary":
+        case "/other-authvowcsslibrary":
             return work_other_authvowcsslibrary();
         default:
             return notFound();
