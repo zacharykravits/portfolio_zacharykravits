@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/normalize.css">
+        <link rel="stylesheet" href="./static/authvow-root.css">
+        <link rel="stylesheet" href="./static/authvow-elements.css">
+        <link rel="stylesheet" href="./static/authvow-margin.css">
+        <link rel="stylesheet" href="./static/authvow-padding.css">
+        <link rel="stylesheet" href="./static/authvow-containers.css">
+        <link rel="stylesheet" href="./static/authvow-positioning.css">
+        <title>Zachary Kravits</title>
+    </head>
+    
+    <style>
+    
+    #ux-photo {
+        right: -90px;
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 599px) {
+        #hero-photo {
+            right: -90px;
+            width: 90%;
+        }
+    }
+    
+    #search-input {
+        border-radius: 0px;
+    }
+
+    #search-input::placeholder {
+        color: #C0C0C0;
+    }
+
+    #search:hover #search-input {
+        border: 0.5px solid var(--color-button-bg-1) !important;
+        border-left: none !important;
+    }
+
+    #search:hover #search-label {
+        border: 0.5px solid var(--color-button-bg-1) !important;
+        border-right: none !important;
+    }
+
+    .lds-grid {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+    }
+    .lds-grid div {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: var(--color-button-bg-1);
+        animation: lds-grid 1.2s linear infinite;
+    }
+      .lds-grid div:nth-child(1) {
+        top: 8px;
+        left: 8px;
+        animation-delay: 0s;
+      }
+      .lds-grid div:nth-child(2) {
+        top: 8px;
+        left: 32px;
+        animation-delay: -0.4s;
+      }
+      .lds-grid div:nth-child(3) {
+        top: 8px;
+        left: 56px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(4) {
+        top: 32px;
+        left: 8px;
+        animation-delay: -0.4s;
+      }
+      .lds-grid div:nth-child(5) {
+        top: 32px;
+        left: 32px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(6) {
+        top: 32px;
+        left: 56px;
+        animation-delay: -1.2s;
+      }
+      .lds-grid div:nth-child(7) {
+        top: 56px;
+        left: 8px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(8) {
+        top: 56px;
+        left: 32px;
+        animation-delay: -1.2s;
+      }
+      .lds-grid div:nth-child(9) {
+        top: 56px;
+        left: 56px;
+        animation-delay: -1.6s;
+      }
+      @keyframes lds-grid {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+    
+    </style>
+    <body class="relative full-width">
+    
+        <div id="nav" class="fixed mx full-width" style="z-index: 100; transition: all 200ms; border-bottom: 0.5px solid var(--color-border); background: var(--color-bg-2) !important;">
+            <div class="mx flex vertically-center container-nav justify-between">
+                <div class="flex vertically-center">
+                    <button class="navbutton1 block-xs hide-sm hide-md hide-lg" style="border-right: 0.5px solid var(--color-border);" onclick="menuToggle()">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="2" width="24" height="1.5" fill="#9B2AE0"/>
+                            <rect y="10.5" width="20" height="1.5" fill="#9B2AE0"/>
+                            <rect y="19" width="16" height="1.5" fill="#9B2AE0"/>
+                        </svg>                    
+                    </button>
+                    <a href="/" class="navbutton2 textcallout1" style="border-right: 0.5px solid var(--color-border);">
+                        Zach Kravits
+                    </a>
+                    <nav class="hide-xs flex-sm flex-md flex-lg" style="align-items: stretch;">
+                        <a class="full-height navbutton2 textcallout1" href="/">Home</a>
+                        <a class="full-height navbutton2 textcallout1" href="/#work">Work</a>
+                        <a class="full-height navbutton2 textcallout1" href="/about">About</a>
+                    </nav>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hide-xs hide-sm hide-md hide-lg">
+                <nav class="flex flexdir-col gap4 pt8 pb8" style="border-top: .5px solid var(--color-border);">
+                    <a class="textcenter mobile-nav-link navbutton2" href="/">Home</a>
+                    <a class="textcenter mobile-nav-link navbutton2" href="#work">Work</a>
+                    <a class="textcenter mobile-nav-link navbutton2" href="#skills">Skills</a>
+                    <a class="textcenter mobile-nav-link navbutton2" href="#about">About</a>
+                </nav>
+            </div>
+        </div>
+    
+        <div>
+            {% block %}{% endblock %}
+        </div>
+    
+        <footer class="container-wrapper mt20 flex flexdir-col" style="box-sizing: border-box; border-top: .5px solid var(--color-border); background: var(--color-bg-2); padding-top: 0px; padding-bottom: 108px; margin-right: 0px !important; margin-left: 0px !important;">
+            <div class="container" style="margin: 0 !important; padding-top: 0px;">
+                <div class="flex gap3 vertically-center pl3 pr3 pb3 pt3">
+                    <p class="p0 m0 mt4 textleft">Authvow LLC {{ "today" | date: "%Y" }}</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="./static/main.js"></script>
+        
+    </body>
+    </html>

@@ -1,0 +1,104 @@
+{
+    "basics": {
+        "url": "dkprojectbuilding",
+        "name": "DK Project Building",
+        "description": "Website for Pittsburgh-based construction company able to build and design.",
+        "categories": [
+            "Lead Generation",
+            "UX Design",
+            "UI Design",
+            "Brand Design",
+            "Research"
+        ],
+        "tooling": [
+            "Webflow",
+            "Vanilla Javascript",
+            "Figma"
+        ],
+        "preview": "cru-mobile-blog-2.png",
+        "logo": ""
+    },
+    "information": [
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Context & Problems",
+            "paragraphs": [
+                "Needs to reflect DK Project Building’s main value proposition: They act as a design AND general contracting company.",
+                "Dan needed a website for showcasing past projects, scheduling meetings, and presenting information to clients. The site should allow potential customers to explore independently and offer quick photo access during in-person consultations, which make up about 20% of his meetings.",
+                "Projects can have very few to nearly 30 photos, which makes for a lot of scrolling."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was my",
+            "header": "Approach",
+            "paragraphs": [
+                "I conducted surveys through Lyssna (formerly called Usability Hub) to understand what influences people in choosing someone for a job.",
+                "The other purpose of the surveys was to understand the value, as well as the pros and cons, for potential clients of serving as both a general contractor and designer. It turns out that most perceive this as a significant benefit for several reasons: (1) the client doesn't need to communicate with multiple people for the project, (2) they anticipate fewer mistakes due to a streamlined exchange of information, and (3) they believe they will have more control if desired. However, a potential issue arises as most respondents view this arrangement as being quite costly.",
+                "In addition, I researched prominent construction companies and studied well-organized UX design/research portfolios for ideas. A robust UX portfolio effectively communicates the process of problem-solving, which is in line with the goals of this construction portfolio. I also delved into presentation software like Prezi to enhance my skills in engaging and retaining audience attention during presentations. After my research, the final design enhancement involved keeping project stage information visible at the top of the screen, with each subsequent stage pushing the previous one out of view for improved user context.",
+                "To assess the designs, I conducted 5-second click tests on both the home and other pages. The objective was to determine if the designs could quickly and effectively convey the company's value proposition."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Solution",
+            "paragraphs": [
+                "It was evident throughout the site that the terms 'build' and 'design' were necessary to fully convey the company's value proposition. The initial designs for the site included a dedicated section for design decisions per project. However, this aspect was removed from the project scope as the client did not have the time to provide the necessary information.",
+                "For the project pages, it was crucial to show it as a story, especially for whole-house renovation projects. Similar to a UX portfolio, it needed to efficiently guide the user through the client's needs, pre-renovation pictures (if available), and then present the after pictures along with a description of the solution.",
+                "While on a project page, a secondary navigation allowed users to quickly jump to different sections. Additionally, the section headers remain visible while scrolling, providing users with context for the various photos."
+            ]
+        }
+    ],
+    "designs": [
+        {
+            "overline": "Results for",
+            "header": "Mobile",
+            "images": [
+                {
+                    "image": "dk-mobile-home-1.png",
+                    "description": "Home page on mobile."
+                },
+                {
+                    "image": "dk-mobile-home-2.png",
+                    "description": "Scrolled down on home page."
+                },
+                {
+                    "image": "dk-mobile-project-1.png",
+                    "description": "Project page on mobile."
+                },
+                {
+                    "image": "dk-mobile-project-2.png",
+                    "description": "Scrolled down on project page. Sub nav scrolls with user."
+                }
+            ]
+        },
+        {
+            "overline": "Results for",
+            "header": "Desktop",
+            "images": [
+                {
+                    "image": "dkpb-desktop-home-1.png",
+                    "description": "Home page at full width."
+                },
+                {
+                    "image": "dkpb-desktop-home-2.png",
+                    "description": "Home page scrolled down."
+                },
+                {
+                    "image": "dkpb-desktop-projectlist.png",
+                    "description": "Project list page with filtering."
+                },
+                {
+                    "image": "dkpb-desktop-project-1.png",
+                    "description": "Top of project page on tablet."
+                },
+                {
+                    "image": "dkpb-desktop-project-2.png",
+                    "description": "Project page scrolled down."
+                }
+            ]
+        }
+    ]
+}

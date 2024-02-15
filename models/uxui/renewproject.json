@@ -1,0 +1,83 @@
+{
+    "basics": {
+        "url": "renewproject",
+        "name": "ReNew Your Life Course",
+        "description": "An online course for a Pittsburgh-based mental health professional.",
+        "categories": [
+            "E-Learning",
+            "UX Design",
+            "UI Design"
+        ],
+        "tooling": [
+            "Webflow",
+            "Memberstack",
+            "Figma"
+        ],
+        "preview": "cru-mobile-blog-2.png",
+        "logo": ""
+    },
+    "information": [
+        {
+            "type": "warning",
+            "overline": "",
+            "header": "Please Note",
+            "paragraphs": [
+                "Lorem Ipsum was used to replace this course's paid content.",
+                "Also, for this project I was only responsible for the UX journey and development. I was required to adopt styling from previous designer."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Context & Problems",
+            "paragraphs": [
+                "Client needed a simple way to add in a payment gateway and audio for an online course.",
+                "Needed a way to easily download an accompanying packet users would write in."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was my",
+            "header": "Approach",
+            "paragraphs": [
+                "I talked with the account manager to understand what the exact requirements were. They wanted to keep it extremely simple with just the audio player for each lesson/section of the course.",
+                "I also looked at UIs of popular e-learning platforms like Linkedin Learning, Udemy, and more.",
+                "In addition, I did research on which solution was best for the sign up and purchasing user journey."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Solution",
+            "paragraphs": [
+                "For the project, put all of accompanying written information in the course as well in case the user wanted more context to what the audio was saying. The account manager and client liked this very much.",
+                "In addition, when scrolling the audio player would stay in the user's view the entire time to make it easier for them.",
+                "When talking through the sign up and purchasing workflow, there was a obsticle with native Webflow functionality. I proposed to include a solution called Memberstack to handle user creation and auth. It cut down the user steps by nearly half and allowed for email verification after a user's first time logging in. All of which reduces cart abandonment and customer support issues."
+            ]
+        }
+    ],
+    "designs": [
+        {
+            "overline": "Results for",
+            "header": "Desktop",
+            "images": [
+                {
+                    "image": "renew-desktop-lesson-2.png",
+                    "description": "Longer lesson page on desktop."
+                },
+                {
+                    "image": "renew-desktop-lesson-1.png",
+                    "description": "Another lesson page."
+                },
+                {
+                    "image": "renew-desktop-login.png",
+                    "description": "Login page."
+                },
+                {
+                    "image": "renew-desktop-checkout.png",
+                    "description": "Checkout page."
+                }
+            ]
+        }
+    ]
+}

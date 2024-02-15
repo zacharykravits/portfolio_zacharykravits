@@ -1,0 +1,62 @@
+{
+    "basics": {
+        "url": "idelic",
+        "name": "Idelic",
+        "description": "Logo and introduction to new brand identity for SaaS company in transportation safety.",
+        "categories": [
+            "Logo Design"
+        ],
+        "tooling": [
+            "Adobe Illustrator"
+        ],
+        "preview": "",
+        "logo": ""
+    },
+    "information": [
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Context & Problems",
+            "paragraphs": [
+                "One, of the problems was the original branding of Idelic was not cohesive. Conference banners, the logo, and marketing materials were inconsistent. So, the Head of Product at the time recommended I investigate a new direction.",
+                "Second, I noticed everything was indicating safety hazard signs: the Pittsburgh-like yellow/gold and sparse red; the sharply defined edges, and typography. All of which isn't giving off the most comforting feeling."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Solution",
+            "paragraphs": [
+                "While also designing the UX/UI for the software, I was investigating a look and feel that would work for both the software and the marketing material.",
+                "For the logo I kept the concept of the mountains, roads, and shield. The shield was representative of protection and safety. The roads clearly are representative of the industry. According to the founder, the mountains are representative of driving to the future down the road.",
+                "For the color scheme, it made sense to me to use something that would bring a sense of calm confidence, yet boldness. I thought Apple's blue (hex #007aff) would work well with a white background.",
+                "For the icon (shield), I used the golden ratio to create circles that would overlap and form the various shapes.",
+                "Lastly, the typography was influenced heavily by the UI's new typeface, Roboto. However, the italic version was used to indicate the company's, the industry's, and customer's progress in a safe and profitable direction."
+            ]
+        }
+    ],
+    "designs": [
+        {
+            "overline": "Results for",
+            "header": "Logo",
+            "images": [
+                {
+                    "image": "idelic-full-w.png",
+                    "description": "Full logo when light background."
+                },
+                {
+                    "image": "idelic-icononly-w.png",
+                    "description": "Icon (shield) only when light background."
+                },
+                {
+                    "image": "idelic-full-blue.png",
+                    "description": "Full logo when blue or dark background."
+                },
+                {
+                    "image": "idelic-icononly-blue.png",
+                    "description": "Icon (shield) only when blue or dark background."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "basics": {
+        "url": "chugsrus",
+        "name": "Chugs R' Us",
+        "description": "E-Commerce site for heavy metal fanatics built on Shopify",
+        "categories": [
+            "E-Commerce",
+            "UX Design",
+            "UI Design",
+            "Research",
+            "Frontend Dev"
+        ],
+        "tooling": [
+            "Shopify",
+            "Vanilla Javascript",
+            "Liquid",
+            "Figma"
+        ],
+        "preview": "cru-mobile-blog-2.png",
+        "logo": ""
+    },
+    "information": [
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Context & Problems",
+            "paragraphs": [
+                "The young company was eager to experiment with various marketing strategies for their blog to attract recurring visitors. They aimed to incorporate email marketing into these strategies, requiring flexibility in the blog design to accommodate different concepts they wanted to test.",
+                "The brand sought to balance the dark and aggressive aspects of heavy metal music with humor. Metal is a genre known for its darkness, aggressiveness, grandiosity, and fast pace, which often conveys themes of institutional anarchy, intense emotions, personal struggles, and resilience. They wanted their branding to capture the \"heaviness\" associated with these elements."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was my",
+            "header": "Approach",
+            "paragraphs": [
+                "My approach to this was simple. First, I aimed to understand the potential content types they were looking to explore and their goals. It turned out they were primarily interested in written articles and videos, as well as building an email list. From there, I sought to examine other platforms that have excelled in creating content-heavy sites. I looked at YouTube, Medium, Dev.to, and others, with the goal of understanding successful layouts and how they incorporated ads/promotions.",
+                "I also examined popular fashion brands such as Life is Good, Gym Shark, Nike, and others to see how they handled product content.",
+                "During discussions with the client, it became clear that they were more focused on appealing to listeners of specific subgenres rather than covering the entire metal spectrum. For instance, instead of targeting fans of thrash metal bands like Warbringer or SpiritWorld, their primary focus was on attracting listeners of metalcore and deathcore bands such as Make Them Suffer, Shadow of Intent, Breakdown of Sanity, and Ice Nine Kills. While this might seem like similar aggressive noise to non-\"metalheads,\" it holds significant distinctions for dedicated listeners. This preference influenced the styling, drawing inspiration from the artwork of popular modern metal bands. Additionally, I explored brands like Liquid Death, a popular canned water brand, to understand how they balanced a dark yet humorous dynamic."
+            ]
+        },
+        {
+            "type": "regular",
+            "overline": "Here was the",
+            "header": "Solution",
+            "paragraphs": [
+                "To simplify user interactions, a drawer opens when clicking the search icon, quick add button, or mini cart button. It dynamically loads relevant information, streamlining code and ensuring a consistent user experience.",
+                "For versatile content testing, a \"blog type\" allows creation of blogs as traditional written or video posts with YouTube or Vimeo URLs. The page layout accommodates both video and written blog content, with an optional product recommendation space.",
+                "The theme supports various blog types, including written and video blogs. The main navigation can display all blogs and suggest recent articles as desired, achieving a balanced design with dark colors, grays, reds, and yellows."
+            ]
+        }
+    ],
+    "designs": [
+        {
+            "overline": "Results for",
+            "header": "Mobile",
+            "images": [
+                {
+                    "image": "cru-mobile-home.png",
+                    "description": "Home page on mobile."
+                },
+                {
+                    "image": "cru-mobile-minicart-2.png",
+                    "description": "Minicart for users to quick see cart contents."
+                },
+                {
+                    "image": "cru-mobile-minicart-1.png",
+                    "description": "Minicart scrolled down."
+                },
+                {
+                    "image": "cru-mobile-quickadd.png",
+                    "description": "Quick add panel instead of loading the entire page."
+                },
+                {
+                    "image": "cru-mobile-search.png",
+                    "description": "Responsive search with debounce in javascript."
+                },
+                {
+                    "image": "cru-mobile-product.png",
+                    "description": "Top of product page."
+                },
+                {
+                    "image": "cru-mobile-blog.png",
+                    "description": "Top of blog page with video type selected."
+                },
+                {
+                    "image": "cru-mobile-blog-2.png",
+                    "description": "Scrolled down on the blog page showing email sign up form."
+                }
+            ]
+        },
+        {
+            "overline": "Results for",
+            "header": "Desktop",
+            "images": [
+                {
+                    "image": "cru-desktop-home.png",
+                    "description": "Home page at full width."
+                },
+                {
+                    "image": "cru-desktop-minicart.png",
+                    "description": "Minicart panel open."
+                },
+                {
+                    "image": "cru-desktop-quickadd.png",
+                    "description": "Quick add panel without loading entire product page."
+                },
+                {
+                    "image": "cru-desktop-search.png",
+                    "description": "Responsive search with debounce in javascript on desktop."
+                },
+                {
+                    "image": "cru-desktop-product.png",
+                    "description": "Product page on desktop view."
+                },
+                {
+                    "image": "cru-desktop-blog.png",
+                    "description": "Blog page with video type selected. Optional product promo by admin."
+                }
+            ]
+        }
+    ]
+}
