@@ -1,5 +1,5 @@
 export const getAllProjectsJSON = async (desiredProjectType) => {
-    const desiredDir = `/models/${desiredProjectType}`
+    const desiredDir = `${Deno.cwd()}/models/${desiredProjectType}`
     console.log('desiredDir: ', desiredDir)
     let projects = [];
 
