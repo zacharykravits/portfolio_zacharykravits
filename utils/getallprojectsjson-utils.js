@@ -1,5 +1,5 @@
 export const getAllProjectsJSON = async (desiredProjectType) => {
-    const desiredDir = `${Deno.cwd()}/models/${desiredProjectType}`
+    const desiredDir = `/models/${desiredProjectType}`
     console.log('desiredDir: ', desiredDir)
     let projects = [];
 
@@ -7,7 +7,6 @@ export const getAllProjectsJSON = async (desiredProjectType) => {
         const filePath = `${Deno.cwd()}/models/${desiredProjectType}/${project.name}`
         console.log('filePath: ', filePath)
         const JSONmodel = await import(filePath, { with: { type: "json" } });
-        // console.log("JSONmodel.basics: ", JSONmodel)
         projects.push(JSONmodel.default.basics)
     }
     console.log('projects: ', projects)
