@@ -5,7 +5,12 @@ export const getAllProjectsJSON = async (desiredProjectType) => {
 
     for await (const project of desiredDir) {
         const filePath = `${Deno.cwd()}/models/${desiredProjectType}/${project.name}`
-        const JSONmodel = await import(filePath, { with: { type: "json" } });
+        console.log('filePath in desiredDir loop: ', filePath)
+        const JSONmodel = await import(filePath, {
+            with: {
+                type: "json"
+            }
+        });
         projects.push(JSONmodel.default.basics)
     }
     return projects
