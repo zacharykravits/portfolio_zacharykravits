@@ -26,7 +26,7 @@
         },
         {
             "type": "regular",
-            "overline": "Here was the",
+            "overline": "Here were the",
             "header": "Context & Problems",
             "paragraphs": [
                 "Client needed a simple way to add in a payment gateway and audio for an online course.",
