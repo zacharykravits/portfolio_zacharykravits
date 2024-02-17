@@ -1,5 +1,6 @@
 {
     "basics": {
+        "state": "public",
         "url": "idelic",
         "name": "Idelic",
         "description": "Logo and introduction to new brand identity for SaaS company in transportation safety.",
@@ -8,9 +9,7 @@
         ],
         "tooling": [
             "Adobe Illustrator"
-        ],
-        "preview": "",
-        "logo": ""
+        ]
     },
     "information": [
         {

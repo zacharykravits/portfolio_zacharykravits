@@ -11,8 +11,6 @@ const handler = async (req) => {
     const pathname = url.pathname
     const method = req.method
 
-    console.log("pathname: ", pathname)
-
     if (pathname.includes('/static/')) {
         return await staticFile(pathname, method);
     } else if (pathname == "/" && method == "GET") {

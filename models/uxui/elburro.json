@@ -1,5 +1,6 @@
 {
     "basics": {
+        "state": "public",
         "url": "elburro",
         "name": "El Burro",
         "description": "Website for Pittsburgh-based fast-casual restaurant selling Mexican food with a Cali influence.",
@@ -13,9 +14,7 @@
             "Webflow",
             "Vanilla Javascript",
             "Figma"
-        ],
-        "preview": "cru-mobile-blog-2.png",
-        "logo": ""
+        ]
     },
     "information": [
         {

@@ -1,20 +1,18 @@
 {
     "basics": {
+        "state": "public",
         "url": "renewproject",
         "name": "ReNew Your Life Course",
         "description": "An online course for a Pittsburgh-based mental health professional.",
         "categories": [
             "E-Learning",
-            "UX Design",
-            "UI Design"
+            "UX Design"
         ],
         "tooling": [
             "Webflow",
             "Memberstack",
             "Figma"
-        ],
-        "preview": "cru-mobile-blog-2.png",
-        "logo": ""
+        ]
     },
     "information": [
         {
@@ -23,7 +21,7 @@
             "header": "Please Note",
             "paragraphs": [
                 "Lorem Ipsum was used to replace this course's paid content.",
-                "Also, for this project I was only responsible for the UX journey and development. I was required to adopt styling from previous designer."
+                "Also, for this project I was responsible for the UX design/journey, gated-content layout, and development."
             ]
         },
         {
@@ -52,7 +50,7 @@
             "paragraphs": [
                 "For the project, put all of accompanying written information in the course as well in case the user wanted more context to what the audio was saying. The account manager and client liked this very much.",
                 "In addition, when scrolling the audio player would stay in the user's view the entire time to make it easier for them.",
-                "When talking through the sign up and purchasing workflow, there was a obsticle with native Webflow functionality. I proposed to include a solution called Memberstack to handle user creation and auth. It cut down the user steps by nearly half and allowed for email verification after a user's first time logging in. All of which reduces cart abandonment and customer support issues."
+                "When talking through the sign up and purchasing workflow, there was a obstacle with native Webflow functionality, which added more steps to the sign up and purchasing purpose - a bad UX and reduces chances of a user successfully completing a purchase. I proposed to include a solution called Memberstack to handle user creation and auth. In addition, it easily links to Stripe, a popular payment processor. Memberstack cut down the users steps for signup/purchase by nearly half and allowed for optional email verification after a user's first time logging in. All of which reduces cart abandonment and customer support issues."
             ]
         }
     ],

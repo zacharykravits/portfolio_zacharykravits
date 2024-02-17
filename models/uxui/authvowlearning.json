@@ -1,19 +1,22 @@
 {
     "basics": {
-        "state": "public",
-        "url": "chugsrus",
-        "name": "Chugs R' Us",
-        "description": "E-Commerce site for heavy metal fanatics built on Shopify",
+        "state": "coming soon",
+        "url": "authvowlearning",
+        "name": "Authvow Learning",
+        "description": "Podcasts and online courses to learn programming and machine learning",
         "categories": [
             "E-Commerce",
+            "Product Design",
             "UX Design",
             "UI Design",
             "Research",
-            "Frontend Development"
+            "Frontend Development",
+            "Backend Development"
         ],
         "tooling": [
-            "Shopify",
             "Vanilla Javascript",
+            "Deno",
+            "Memberstack",
             "Liquid",
             "CSS",
             "Figma"

@@ -1,5 +1,6 @@
 {
     "basics": {
+        "state": "public",
         "url": "dkprojectbuilding",
         "name": "DK Project Building",
         "description": "Website for Pittsburgh-based construction company able to build and design.",
@@ -14,9 +15,7 @@
             "Webflow",
             "Vanilla Javascript",
             "Figma"
-        ],
-        "preview": "cru-mobile-blog-2.png",
-        "logo": ""
+        ]
     },
     "information": [
         {

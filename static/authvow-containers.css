@@ -18,6 +18,7 @@
 .container-inner { border-top: .5px solid var(--color-border); border-left: .5px solid var(--color-border); }
 .block {  background: var(--color-bg-2); border-right: .5px solid var(--color-border); border-bottom: .5px solid var(--color-border); }
 .block-image-bg { background: var(--color-bg-1); }
+.comingsoon { transition: 100ms; cursor: not-allowed; }
 .click-to-view { transition: 100ms; }
 .container-outlined { max-width: 1080px; margin: 0 auto; border: .3px solid var(--color-border); }
 .container-innerleft1 { width: 440px; padding: 32px 40px; }
@@ -27,6 +28,7 @@
 .card1-title-area { border-bottom: 0.5px solid var(--color-border); padding: 0px 4px 4px 4px; margin-bottom: 8px; }
 .card1-title { font-weight: 600; font-size: 16px; padding: 0px; margin: 0px; }
 .tag { font-size: 12px; color: #7a7a7a; background: var(--color-bg-2); padding: 0px; margin: 0px; padding: 4px 4px; white-space: nowrap; }
+.tag2 { font-size: 12px; color: #000; background: #e3d2ff; padding: 0px; margin: 0px; padding: 4px 6px; white-space: nowrap; }
 
 .card-nobottompadding { padding-bottom: 0px; }
 .card-link { cursor: pointer; }

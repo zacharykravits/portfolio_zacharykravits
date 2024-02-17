@@ -1,6 +1,5 @@
 export const getAllProjectsJSON = async (desiredProjectType) => {
     const desiredDir = await Deno.readDir(`${Deno.cwd()}/models/${desiredProjectType}`)
-    console.log('desiredDir: ', desiredDir)
     let projects = [];
 
     for await (const project of desiredDir) {
@@ -8,7 +7,9 @@ export const getAllProjectsJSON = async (desiredProjectType) => {
         const decoder = new TextDecoder('utf-8');
         const fileData = await Deno.readFile(filePath);
         const jsonData = JSON.parse(decoder.decode(fileData))
-        projects.push(jsonData.basics)
+        if (jsonData.basics.state == "public" || jsonData.basics.state == "coming soon") {
+            projects.push(jsonData.basics)
+        }
     }
     return projects
 }
