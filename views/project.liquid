@@ -4,13 +4,15 @@
 <section class="pt25 pb16 mb6 relative full-width animation-glow" style="overflow: hidden; background: #D4BAFD;">
     <div class="container flex" style="overflow: hidden;">
         <div class="flex flexdir-col gap5" style="z-index: 3;">
-            <div class="flex flexdir-col gap2">
-                <h1 class="p0 m0 header1 textcallout1">{{ project.basics.name }}</h1>
-                <p class="p0 m0 pb2 textcallout1" style="font-size: 20px;">{{ project.basics.description }}</p>
-                <div class="pb2 flex gap2 flexwrap-true">
-                    {% for category in project.basics.categories %}
-                        <p class="tag">{{ category }}</p>
-                    {% endfor %}
+            <div class="flex flexdir-col gap5">
+                <div>
+                    <h1 class="p0 m0 header1 textcallout1">{{ project.basics.name }}</h1>
+                    <p class="p0 m0 pb2 textcallout1" style="font-size: 20px;">{{ project.basics.description }}</p>
+                    <div class="pb2 flex gap2 flexwrap-true">
+                        {% for category in project.basics.categories %}
+                            <p class="tag">{{ category }}</p>
+                        {% endfor %}
+                    </div>
                 </div>
                 <div class="pb2">
                     <p class="overline p0 m0 pb2">Designed & Built with</p>
@@ -78,6 +80,12 @@
     </div>
     <div id="hero-photo" class="absolute" style="height: 100%; top: 164px; z-index: 2; background-repeat: no-repeat;"></div>
 </section>
+
+{% comment %} <div class="sticky full-width" style="top: 100px;">
+    <div class="container pl3 pr3 pt4 pb4" style="background: var(--color-bg-2);">
+        hello world
+    </div>
+</div> {% endcomment %}
 
 <div class="container-wrapper">
     {% for context in project.information %}
