@@ -133,7 +133,14 @@
                                                 </div>
                                             </div>
                                             <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#9B2AE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M6 12H18M18 12L13 7M18 12L13 17"
+                                                    {% if uxuiproject.state == "public" %}
+                                                        stroke="#9B2AE0" 
+                                                    {% endif %}
+                                                    {% if uxuiproject.state == "comingsoon" %}
+                                                        stroke="#F5F9FF" 
+                                                    {% endif %}
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                         </div>
                                     </div>
