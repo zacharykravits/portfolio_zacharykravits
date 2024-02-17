@@ -3,7 +3,6 @@ import { index } from "./controllers/index-controller.js"
 import { about } from "./controllers/about-controller.js"
 import { projectUXUI } from "./controllers/projectuxui-controller.js"
 import { projectOther } from "./controllers/projectother-controller.js"
-// import { projectOther } from "./controllers/projectother-controller.js""
 import { notFound } from "./controllers/notfound-controller.js"
 
 
