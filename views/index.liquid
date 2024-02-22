@@ -27,41 +27,43 @@
                     <h2 class="m0 p0 textcallout1 header1">Trusted by</h2>
                 </div>
                 
-                <div class="container-inner full-width flex justify-around flexdir-col-xs">
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/idelic-logo.png"class="full-width" style="max-width: 132px; object-fit: contain;">
+                <div class="flex flexdir-col gap2">
+                    <div class="full-width flex justify-around gap2 flexdir-col-xs">
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/idelic-logo.png"class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/elburro-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/dkprojectbuilding-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
                         </div>
                     </div>
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/elburro-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                    <div class=" full-width flex justify-around flexdir-col-xs gap2">
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/chugsrus-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
                         </div>
-                    </div>
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/dkprojectbuilding-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/pizzapeno-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="block container-inner pt5 pb5 full-width flex flexdir-col justify-around">
+                            <div class="full-width flex justify-around" style="min-height: 80px;">
+                                <img src="./static/renewproject-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="container-inner full-width flex justify-around flexdir-col-xs">
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/chugsrus-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
-                        </div>
-                    </div>
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/pizzapeno-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
-                        </div>
-                    </div>
-                    <div class="block pt5 pb5 full-width flex flexdir-col justify-around">
-                        <div class="full-width flex justify-around" style="min-height: 80px;">
-                            <img src="./static/renewproject-logo.png" class="full-width" style="max-width: 132px; object-fit: contain;">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -76,7 +78,7 @@
                     <h2 class="m0 p0 textcallout1 header1">Web Work</h2>
                 </div>
 
-                <div class="container-inner full-width grid gridcols4 justify-around flexdir-col-xs flexdir-col-sm">
+                <div class="full-width grid gridcols4 gap2 justify-around flexdir-col-xs flexdir-col-sm">
                     {% for uxuiproject in uxuiProjects %}
 
                         <div class="full-width flex colspan1-lg colspan2-md colspan2-sm colspan4-xs">
@@ -84,7 +86,7 @@
                                 {% if uxuiproject.state == "public" %}
                                     href="/uxui/{{ uxuiproject.url }}" 
                                 {% endif %}
-                                class="block {% if uxuiproject.state == "public" %} click-to-view {% else %} comingsoon {% endif %} full-width" style="text-decoration: none;">
+                                class="block container-inner {% if uxuiproject.state == "public" %} click-to-view {% else %} comingsoon {% endif %} full-width" style="text-decoration: none;">
                                 <div class="full-width pb5" style="height: 100%;">
                                     <div class="flex flexdir-col justify-between gap5" style="height: 100%;">
                                         <div class="full-width flex flexdir-col gap2">
